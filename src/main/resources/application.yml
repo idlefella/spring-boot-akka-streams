@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+
+application:
+  example: Test String
+  database:
+    hostname: String
+    user: String
+    password: String
+
+db1:
+  hostname: String
+  user: String
+  password: String
